@@ -1,0 +1,122 @@
+html{
+    font-size: 62.5%;
+}
+#main{
+    color: aqua;
+    font-size: 5rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 1rem;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    margin-top: 7rem;
+}
+.menu{
+    position: absolute;
+    background-color: aqua;
+    width:24rem;
+    height:210rem;
+}
+.links{
+    text-decoration: none;
+    width: 20rem;
+    padding: 1rem;
+    border: none;
+    text-align: left;
+    text-indent: 1rem;
+    margin-top: 2rem;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+}
+.links:hover{
+    background-color: white;
+    color: aqua;
+}
+#icons{
+    background-color: white;
+    color: aqua;
+    border-radius: .1rem;
+    padding: .5rem;
+    text-align: center;
+    margin-left: 1rem;
+    
+}
+p{
+    margin-left: 1.5rem;
+}
+.href{
+    text-decoration:none;
+}
+input[type=search]{
+    margin-top :10rem;
+    margin-right:1rem;
+    border-color: aqua;
+    padding: 1rem;
+    width: 70rem;
+    margin-left: 40rem;
+}
+.btn{
+    padding: 1rem;
+    background-color: aqua;
+    color: white;
+    width:5rem;
+}
+.photo{
+    margin-top: 5rem;
+    width: 40rem;
+    height: 30rem;
+    margin-left: .8rem;
+}
+#first{
+    margin-top: 10rem;
+    width: 40rem;
+}
+.row{
+    margin-left: 15rem;
+    
+}
+.col{
+    float:left;
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+.para1{
+    max-width: 40rem;
+}
+ 
+     
+
+.bttn{
+    background-color: lightgray;
+    color: black;
+    padding: 1rem;
+    width: 7rem;
+    margin-left: 2rem;
+    border: none;
+    border-radius: .3rem;
+}
+.num{
+    background-color: lightgray;
+    color: black;
+    padding:1rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: .3rem;
+
+}
+.bttn:hover,.num:hover{
+    color: white;
+    background-color: aqua;
+}
+@media(max-width:998px) {
+    html{
+        font-size: 55%;
+    } 
+}
+@media(max-width:768px) {
+    html{
+        font-size: 45%;
+    } 
+}
